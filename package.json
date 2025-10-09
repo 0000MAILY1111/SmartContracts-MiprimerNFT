@@ -1,0 +1,19 @@
+{
+  "name": "smart-contract-auction",
+  "version": "1.0.0",
+  "description": "Sistema de subasta descentralizada con funcionalidades avanzadas",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify": "hardhat run scripts/verify.js --network sepolia",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^17.2.1",
+    "hardhat": "^2.26.3"
+  }
+}
